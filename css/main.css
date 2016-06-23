@@ -1,0 +1,286 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+	
+}
+
+
+header img {
+	float: left;
+	height: 70px;
+	width: 70px;
+	margin-left: 20%;
+}
+
+header {
+	height: 70px;
+	background-color: white;
+	width: 100%;
+}
+
+header nav ul {
+	margin-right: 20%;
+	float: right;
+}
+
+header nav ul li{
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	margin-top: 30px;	
+
+}
+
+header nav ul li a{ 
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	font-family: 'titillium Web', Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+header nav ul li a.active{
+	color: #f63c3c;
+}
+
+ul li h1 {
+	font-family: 'Teko', Helvetica, sans-serif;
+	font-size: 7.5em;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	margin-right: 10%;
+	margin-left: 10%;
+	line-height: 1em;
+	margin-bottom: 65px;
+	letter-spacing: 15px;
+	padding-top: 300px;
+}
+
+ul li p {
+	font-size: 1.3em;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 300;
+	text-align: center;
+	font-family: 'titillium web', Helvetica, sans-serif;
+	width: 725px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 40px;
+	line-height: 1.5em;
+}
+
+main section ul{
+	background: url(../img/background.png) center center no-repeat;
+	background-image: no-repeat;
+}
+
+main section ul li {
+	display: none;
+}
+
+main section ul li.active {
+	display: block;
+}
+
+main section ul li a {
+	width: 230px;
+	height: 60px;
+	background-color: #ffffff;
+	color: #000000;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 20px;
+	font-family: 'Teko', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 230px;
+}
+
+main nav ul li {
+	height: 6px;
+	width: 40px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.22);
+}
+
+main nav ul li.active {
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+section h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	font-family: 'Teko', Helvetica, sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+time.2014 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Teko', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+h3 a{ 
+	color: #000000;
+	text-transform: uppercase;
+	font-family: 'Teko', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 1.875em;
+	text-decoration: none;
+
+}
+
+section article p {
+	color: #454545;
+	font-family: 'titillium web', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 0.875em;
+	text-decoration: none;
+}
+
+article figure a img, article a figure img {
+	height: 424px;
+	width: 45%;
+	display: block;
+	margin: 5%;
+}
+article figure a img {
+	float: left;
+}
+
+article a figure img {
+	float: right;
+}
+
+figure.photo1 {
+	width: 50%;
+
+}
+
+h4, article figure a figcaption p, article a figure figcaption p{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Teko', Helvetica, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	height: 424px;
+	width: 45%;
+	background-color: #f63c3c;
+	display: none;
+}
+
+h4{
+	font-size: 2.5em;
+}
+
+article figure a figcaption p {
+	font-size: 1.125em;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+footer a{
+	text-align: center;
+	font-family: 'teko', Helvetica, sans-serif;
+	color: #f63c3c;
+	text-transform: uppercase;
+}
+
+section.showcase{
+	width: 100%;
+	height: 240px;
+	background-color: #f63c3c;
+}
+
+section h2{
+	font-size: 2.5em;
+	font-weight: 300;
+	color: white;
+}
+
+section p{
+	font-family: 'roboto', Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+
+section a{
+	font-size: 1.25em;
+	font-family: 'teko', Helvetica, sans-serif;
+	color: #685157;
+	text-align: center;
+	background-color: #ffffff; 
+	height: 60px;
+	width: 270px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+aside h2 {
+	font-family: 'teko', Helvetica, sans-serif;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+
+aside p{
+	font-family: 'titillium web', Helvetica, sans-serif;
+	color: #555555;
+	font-size: 1em;
+}
+
+aside ul li{
+	display: inline-block;
+	height: 270px;
+	width: 200px;
+	background-color: #352D2F;
+}
+
+aside ul li a{
+	color: #ffffff;
+}
+
+footer small {
+	color: #555555;
+	font-family: 'titillium web', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 0.8125em;
+}
+
+article figure a img.img: before
+article figure a img.img: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
